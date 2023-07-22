@@ -1,0 +1,25 @@
+#time {
+font-size: 80px;
+color: rgb(250, 251, 250);
+background-color:rgb(2, 54, 22);
+text-align:center;
+border-style: double;
+border-color: rgb(252, 253, 251);
+border-width: 10px;
+position: fixed;
+margin-left: 37%;
+margin-top: -10px ;
+}
+#body {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+}
+.clock {
+    background-color: rgb(2, 55, 28);
+    border-style: double;
+    border-color: blueviolet;
+    border-width: 4px;
+
+}
