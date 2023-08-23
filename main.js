@@ -7,6 +7,12 @@ function updateClock() {
     const timeString = `${hours}:${minutes}:${seconds}`;
     clockElement.textContent = timeString;
 }
+const currentDate = new Date();
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const formattedDate = currentDate.toLocaleDateString(undefined, options);
+
+const dateElement = document.getElementById("date");
+dateElement.textContent = formattedDate;
 
 // Update the clock every second
 setInterval(updateClock, 1000);
