@@ -28,8 +28,8 @@ body {
   }
 
   #date {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
     text-align: center;
     color: #fde5e5;
     padding: 40px;
@@ -37,14 +37,16 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: inline;
     align-items: center; 
-    margin-left: 30%;
-    margin-top:120%;
+    margin-top:200%;
     text-decoration-style: wavy;
   }
   
   /* Responsive styles */
   @media (max-width: 600px) {
     #clock {
+      font-size: 36px;
+    }
+    #date {
       font-size: 36px;
     }
   }
