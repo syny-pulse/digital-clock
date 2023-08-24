@@ -1,43 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
-    background: radial-gradient(#203801,#124b01);
+    background-color: black;
     color:antiquewhite;
-  }
-  
-  /* Header styles */
-  h1 {
-    text-align: center;
-    margin-top: 140px;
+    display: block;
+    align-items: center;
+    justify-content: center;
   }
   
   /* Clock styles */
   #clock {
-    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 180px;
     font-weight: bold;
     text-align: center;
     margin-top: 50px;
-    color: #f82727;
-    background-color: #4a464e;
+    color: #fcfbfb;
+    background-color: #070707;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: inline;
-    align-items: center; 
-    margin-left: 40%;
+    display: block;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 10rem;
   }
 
   #date {
-    font-size: 15px;
+    font-size: 40px;
     font-style: italic;
     text-align: center;
-    color: #fde5e5;
-    padding: 40px;
+    justify-content: center;
+    color: #fad503;
+    padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: inline;
+    display: block;
     align-items: center; 
-    margin-top:200%;
     text-decoration-style: wavy;
   }
   
